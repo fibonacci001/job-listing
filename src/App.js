@@ -26,6 +26,7 @@ function App() {
 <ThemeProvider theme={theme}>
       
       < Hero />
+      <Joblist />
 <Routes>
     <Route path='/' element={<Joblist />} />
     <Route path='/postjobs' element={<Postjobs />} />

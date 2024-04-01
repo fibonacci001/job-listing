@@ -2,8 +2,8 @@ import React, { useState, useEffect } from 'react';
 
 const Hero = () => {
   const [isMobile, setIsMobile] = useState(false);
-  const desktopImage = "/images/bg-header-desktop.svg";
-  const mobileImage = "/images/bg-header-mobile.svg";
+  const desktopImage = "./images/bg-header-desktop.svg";
+  const mobileImage = "./images/bg-header-mobile.svg";
 
   useEffect(() => {
     const handleResize = () => {
