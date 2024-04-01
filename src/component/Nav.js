@@ -24,9 +24,9 @@ const Nav = () => {
             justifyContent: 'center',
             padding: '10px'
         }}>
-        <Link to="/"><Button variant="outlined" color="secondary" startIcon={<WorkHistoryIcon />}>
+        {/* <Link to="/"><Button variant="outlined" color="secondary" startIcon={<WorkHistoryIcon />}>
         jobs
-      </Button></Link>
+      </Button></Link> */}
         <Link to="/postjobs"> <Button variant="outlined" color="secondary" startIcon={<PostAddIcon />}>
         New jobs
       </Button></Link>
